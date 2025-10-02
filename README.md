@@ -20,10 +20,10 @@ The dataset used is the "CEDs Music Dataset," containing audio and lyrical featu
 My analysis revealed several key insights into how music has evolved:
 
 1.  **Music is Getting More Danceable:** The median danceability of songs has steadily increased over the decades, peaking in the 2010s.
-    *<img src="images/danceability_over_decades.png" width="600"/>*
+    *<img src="images/boxplot_danceability_by_decade.png" width="600"/>*
 
 2.  **The Energy-Acousticness Trade-off:** There is a strong negative correlation between `energy` and `acousticness`. Songs with acoustic instruments tend to be lower in energy, while high-energy songs are rarely acoustic.
-    *<img src="images/correlation_heatmap.png" width="600"/>*
+    *<img src="images/heatmap_feature_correlation.png" width="600"/>*
 
 3.  **Positive Music is Danceable:** `Valence` (musical happiness) and `danceability` have a moderate positive correlation, suggesting that happier-sounding tracks are generally easier to dance to.
 
